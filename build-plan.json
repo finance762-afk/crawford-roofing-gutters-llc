@@ -1,0 +1,468 @@
+{
+  "seo": {
+    "target_radius": 100,
+    "primary_keyword": "roofing contractor omaha",
+    "secondary_keywords": [
+      "roof repair omaha",
+      "roof replacement omaha",
+      "gutter cleaning omaha",
+      "gutter repair omaha",
+      "roofer omaha",
+      "gutter contractor omaha",
+      "new roof installation omaha",
+      "roof inspection omaha",
+      "gutter installation omaha",
+      "roofing company omaha",
+      "residential roof repair omaha",
+      "gutter replacement omaha"
+    ]
+  },
+  "tier": "premium",
+  "email": "",
+  "pages": [
+    {
+      "slug": "gutter-addition",
+      "type": "service",
+      "title": "Gutter Addition in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Gutter Addition"
+      ],
+      "primary_keyword": "gutter addition Omaha NE"
+    },
+    {
+      "slug": "gutter-cleaning",
+      "type": "service",
+      "title": "Gutter Cleaning in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Gutter Cleaning"
+      ],
+      "primary_keyword": "gutter cleaning Omaha NE"
+    },
+    {
+      "slug": "gutter-installation",
+      "type": "service",
+      "title": "Gutter Installation in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Gutter Installation"
+      ],
+      "primary_keyword": "gutter installation Omaha NE"
+    },
+    {
+      "slug": "gutter-repair",
+      "type": "service",
+      "title": "Gutter Repair in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Gutter Repair"
+      ],
+      "primary_keyword": "gutter repair Omaha NE"
+    },
+    {
+      "slug": "gutter-replacement",
+      "type": "service",
+      "title": "Gutter Replacement in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Gutter Replacement"
+      ],
+      "primary_keyword": "gutter replacement Omaha NE"
+    },
+    {
+      "slug": "roof-inspection",
+      "type": "service",
+      "title": "Roof Inspection in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Roof Inspection"
+      ],
+      "primary_keyword": "roof inspection Omaha NE"
+    },
+    {
+      "slug": "roof-repair",
+      "type": "service",
+      "title": "Roof Repair in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Roof Repair"
+      ],
+      "primary_keyword": "roof repair Omaha NE"
+    },
+    {
+      "slug": "roof-replacement",
+      "type": "service",
+      "title": "Roof Replacement in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Roof Replacement"
+      ],
+      "primary_keyword": "roof replacement Omaha NE"
+    },
+    {
+      "slug": "new-roof-installation",
+      "type": "service",
+      "title": "New Roof Installation in Omaha, NE",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "New Roof Installation"
+      ],
+      "primary_keyword": "new roof installation Omaha NE"
+    }
+  ],
+  "phone": "",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/logo/1779133831658-1madaq-dff36b_7f824423317d4c34af5fcee38837267c_mv2.png",
+      "storage_path": "crawford-roofing-gutters-llc/logo/1779133831658-1madaq-dff36b_7f824423317d4c34af5fcee38837267c_mv2.png"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/logo/1779133831658-1madaq-dff36b_7f824423317d4c34af5fcee38837267c_mv2.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "crawford-roofing-gutters-llc/logo/1779133831658-1madaq-dff36b_7f824423317d4c34af5fcee38837267c_mv2.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134251810-z2x055-IMG_95F75D69640F-1.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134251810-z2x055-IMG_95F75D69640F-1.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252049-ez0nhr-IMG_096815F71F3A-1.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134252049-ez0nhr-IMG_096815F71F3A-1.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "crawford-roofing-gutters-llc/photos/1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/logo/1779133831658-1madaq-dff36b_7f824423317d4c34af5fcee38837267c_mv2.png",
+      "context": "logo",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "rustic",
+    "colors": {
+      "accent": "#0628d0",
+      "primary": "#1a2b3c",
+      "secondary": "#4d5e6f",
+      "extracted_from_logo": false
+    },
+    "logo_analysis": {}
+  },
+  "domain": "crawford-roofing-gutters-llc",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "68138",
+    "city": "Omaha",
+    "state": "NE",
+    "street": "13514 Giles Rd suite g"
+  },
+  "content": {
+    "usps": [],
+    "years": 33,
+    "insurance": "",
+    "description": "Crawford Roofing & Gutters LLC is a full-service roofing and gutter contractor led by Raymond Crawford, a second-generation contractor with over 21 years of construction experience. Built on a foundation of family expertise and proven craftsmanship, the company specializes in both residential and commercial roofing solutions, including new installations, replacements, and repairs. With a comprehensive service portfolio spanning multiple roofing materials—asphalt shingles, metal, TPO, EPDM, and flat roofing systems—Crawford Roofing delivers solutions tailored to every property type and budget.\n\nThe company's full-service capabilities extend to complete gutter systems, offering installation, repair, replacement, and seamless gutter solutions in various materials and configurations. Whether addressing storm damage, emergency leaks, hail damage, or routine maintenance, Crawford Roofing combines technical expertise with responsive service. Led by CEO Raymond Crawford and supported by Head of Sales and Project Manager Joe, whose nearly 10 years in residential and commercial roofing brings direct expertise in roof assessment and project estimation, the team ensures quality workmanship from initial consultation through project completion.\n\nServing residential and commercial clients alike, Crawford Roofing & Gutters LLC offers competitive pricing, financing options, and 24-hour emergency repair services to address urgent roofing and gutter needs. The company's commitment to comprehensive property care—combining roof repair, replacement, and gutter services under one trusted contractor—makes it a complete solution for protecting properties against the elements.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "Weathering the Elements",
+  "industry": "roofing",
+  "services": [
+    {
+      "name": "Gutter Addition",
+      "keywords": [
+        "gutter addition Omaha",
+        "add gutters Omaha NE",
+        "new gutters Omaha",
+        "gutter installation Omaha",
+        "home gutters Nebraska"
+      ],
+      "description": "Add new gutters to your home or commercial property in Omaha to improve water drainage and protect your foundation. Our expert team installs quality gutters tailored to your building's needs."
+    },
+    {
+      "name": "Gutter Cleaning",
+      "keywords": [
+        "gutter cleaning Omaha",
+        "gutter cleaning services Omaha NE",
+        "clean gutters Omaha",
+        "professional gutter cleaning",
+        "gutter maintenance Omaha"
+      ],
+      "description": "Keep your gutters clean and flowing properly with professional gutter cleaning services in Omaha. Regular cleaning prevents water damage and extends the life of your gutter system."
+    },
+    {
+      "name": "Gutter Installation",
+      "keywords": [
+        "gutter installation Omaha",
+        "install gutters Omaha NE",
+        "new gutter installation",
+        "residential gutter installation Omaha",
+        "commercial gutters Omaha"
+      ],
+      "description": "Professional gutter installation services for residential and commercial properties in Omaha, Nebraska. We install durable gutters that effectively manage water drainage around your property."
+    },
+    {
+      "name": "Gutter Repair",
+      "keywords": [
+        "gutter repair Omaha",
+        "gutter repair Omaha NE",
+        "fix gutters Omaha",
+        "gutter leak repair",
+        "damaged gutter repair Omaha"
+      ],
+      "description": "Expert gutter repair services to fix leaks, damage, and other issues affecting your Omaha home or business. We quickly diagnose and repair gutter problems to prevent water damage."
+    },
+    {
+      "name": "Gutter Replacement",
+      "keywords": [
+        "gutter replacement Omaha",
+        "replace gutters Omaha NE",
+        "new gutters Omaha",
+        "gutter replacement services",
+        "old gutter replacement Omaha"
+      ],
+      "description": "Replace old, damaged, or outdated gutters with new, high-quality systems in Omaha. Our gutter replacement services ensure optimal water management and protection for your property."
+    },
+    {
+      "name": "Roof Inspection",
+      "keywords": [
+        "roof inspection Omaha",
+        "roof inspection Omaha NE",
+        "roof inspection services",
+        "professional roof inspection",
+        "roof damage inspection Omaha"
+      ],
+      "description": "Comprehensive roof inspections in Omaha to identify damage, leaks, and maintenance needs before they become costly problems. Our inspections help protect your property investment."
+    },
+    {
+      "name": "Roof Repair",
+      "keywords": [
+        "roof repair Omaha",
+        "roof repair Omaha NE",
+        "roof leak repair",
+        "residential roof repair Omaha",
+        "commercial roof repair Omaha"
+      ],
+      "description": "Fast and reliable roof repair services for residential and commercial properties in Omaha. We fix leaks, damage, and other roof issues to restore the integrity of your property."
+    },
+    {
+      "name": "Roof Replacement",
+      "keywords": [
+        "roof replacement Omaha",
+        "roof replacement Omaha NE",
+        "new roof installation Omaha",
+        "residential roof replacement Omaha",
+        "commercial roof replacement Omaha"
+      ],
+      "description": "Professional roof replacement services in Omaha for homes and businesses needing a new roof system. We install quality roofing materials that provide long-lasting protection and durability."
+    },
+    {
+      "name": "New Roof Installation",
+      "keywords": [
+        "new roof installation Omaha",
+        "roof installation Omaha NE",
+        "install new roof Omaha",
+        "professional roof installation",
+        "roofing contractor Omaha"
+      ],
+      "description": "Expert new roof installation for Omaha properties, including residential and commercial buildings. We deliver quality roofing systems designed for durability and weather protection."
+    }
+  ],
+  "owner_name": "",
+  "client_slug": "crawford-roofing-gutters-llc",
+  "form_action": "https://design.pageone.cloud/api/leads/crawford-roofing-gutters-llc",
+  "github_repo": "",
+  "company_name": "crawford-roofing-gutters-llc",
+  "service_areas": [
+    {
+      "zip": "68147",
+      "city": "",
+      "state": "NE",
+      "primary": true
+    }
+  ],
+  "image_curation": null,
+  "research_brief": null,
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 16,
+    "tier": "premium",
+    "groups": [
+      {
+        "page": "Gutter Addition",
+        "solo": true,
+        "services": [
+          "Gutter Addition"
+        ]
+      },
+      {
+        "page": "Gutter Cleaning",
+        "solo": true,
+        "services": [
+          "Gutter Cleaning"
+        ]
+      },
+      {
+        "page": "Gutter Installation",
+        "solo": true,
+        "services": [
+          "Gutter Installation"
+        ]
+      },
+      {
+        "page": "Gutter Repair",
+        "solo": true,
+        "services": [
+          "Gutter Repair"
+        ]
+      },
+      {
+        "page": "Gutter Replacement",
+        "solo": true,
+        "services": [
+          "Gutter Replacement"
+        ]
+      },
+      {
+        "page": "Roof Inspection",
+        "solo": true,
+        "services": [
+          "Roof Inspection"
+        ]
+      },
+      {
+        "page": "Roof Repair",
+        "solo": true,
+        "services": [
+          "Roof Repair"
+        ]
+      },
+      {
+        "page": "Roof Replacement",
+        "solo": true,
+        "services": [
+          "Roof Replacement"
+        ]
+      },
+      {
+        "page": "New Roof Installation",
+        "solo": true,
+        "services": [
+          "New Roof Installation"
+        ]
+      }
+    ],
+    "grouped_count": 9,
+    "original_count": 9
+  },
+  "lead_notification_email": "",
+  "lead_notification_phone": "",
+  "google_business_profile_url": ""
+}
