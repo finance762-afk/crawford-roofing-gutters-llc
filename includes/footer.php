@@ -64,10 +64,11 @@ if (!function_exists('formatPhone')) {
         </ul>
         <h4 style="margin-top:var(--space-6);">Service Areas</h4>
         <ul>
-          <?php foreach ($serviceAreas as $area): ?>
-          <li><a href="/areas/<?php echo strtolower(trim($area['city'] ?: $address['city'])); ?>/"><?php echo htmlspecialchars($area['city'] ?: $address['city']); ?>, <?php echo htmlspecialchars($area['state']); ?></a></li>
-          <?php endforeach; ?>
-          <li><a href="/areas/">View All Areas</a></li>
+          <?php $footerAreaCount = 0; foreach ($serviceAreas as $area): ?>
+          <?php if ($footerAreaCount < 6): ?>
+          <li><a href="/areas/<?php echo htmlspecialchars($area['slug'] ?? getAreaSlug($area['city'] ?: $address['city'])); ?>/"><?php echo htmlspecialchars($area['city'] ?: $address['city']); ?>, <?php echo htmlspecialchars($area['state']); ?></a></li>
+          <?php endif; $footerAreaCount++; endforeach; ?>
+          <li><a href="/areas/">View All <?php echo count($serviceAreas); ?> Areas</a></li>
         </ul>
       </div>
 
