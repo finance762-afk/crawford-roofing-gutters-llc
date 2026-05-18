@@ -41,6 +41,7 @@ if (!function_exists('isActivePage')) {
           </li>
           <li><a href="/areas/"<?php echo isActivePage('areas') ? ' aria-current="page"' : ''; ?>>Service Areas</a></li>
           <li><a href="/about/"<?php echo isActivePage('about') ? ' aria-current="page"' : ''; ?>>About</a></li>
+          <li><a href="/faq/"<?php echo isActivePage('faq') ? ' aria-current="page"' : ''; ?>>FAQ</a></li>
           <li><a href="/contact/"<?php echo isActivePage('contact') ? ' aria-current="page"' : ''; ?>>Contact</a></li>
         </ul>
       </nav>
@@ -78,6 +79,7 @@ if (!function_exists('isActivePage')) {
   </div>
   <a href="/areas/"<?php echo isActivePage('areas') ? ' aria-current="page"' : ''; ?>>Service Areas</a>
   <a href="/about/"<?php echo isActivePage('about') ? ' aria-current="page"' : ''; ?>>About</a>
+  <a href="/faq/"<?php echo isActivePage('faq') ? ' aria-current="page"' : ''; ?>>FAQ</a>
   <a href="/contact/"<?php echo isActivePage('contact') ? ' aria-current="page"' : ''; ?>>Contact</a>
   <div class="mobile-cta-group">
     <?php if (!empty($phone)): ?>

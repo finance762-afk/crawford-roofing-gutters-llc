@@ -132,5 +132,12 @@ $yearsInBusiness = date('Y') - $yearEstablished;
 // ── Form Configuration ────────────────────────────────────
 $formAction = 'https://design.pageone.cloud/api/leads/crawford-roofing-gutters-llc';
 
+// ── Legal / Compliance ───────────────────────────────────
+$entityType       = 'Limited Liability Company';
+$stateOfFormation = 'Nebraska';
+$contactEmail     = $email;
+$contactPhone     = $phone;
+$businessAddress  = $address['street'] . ', ' . $address['city'] . ', ' . $address['state'] . ' ' . $address['zip'];
+
 // ── CSS Version (increment on every styles.css change) ────
 $cssVersion = '1';
