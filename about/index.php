@@ -6,14 +6,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $pageTitle       = 'About Crawford Roofing & Gutters | Second-Generation Roofers | Omaha, NE';
 $pageDescription = 'Crawford Roofing & Gutters LLC is a second-generation roofing and gutter contractor in Omaha, NE with 33+ years of experience. Meet the Crawford team and learn our story.';
 $canonicalUrl    = $siteUrl . '/about/';
-$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg';
+$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/gallery/1779196721177-dff36b_5fe8ff9bdd1c44b69e147fb0ddc31f51_mv2.png';
 $currentPage     = 'about';
-$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg';
+$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/gallery/1779196721177-dff36b_5fe8ff9bdd1c44b69e147fb0ddc31f51_mv2.png';
 $cssVersion      = '4';
 
 $imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/';
 $photos = [
-    'hero'    => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
+    'hero'    => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/gallery/1779196721177-dff36b_5fe8ff9bdd1c44b69e147fb0ddc31f51_mv2.png',
     'team'    => $imgBase . '1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg',
     'work1'   => $imgBase . '1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg',
     'work2'   => $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg',

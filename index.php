@@ -9,13 +9,13 @@ $pageDescription = 'Crawford Roofing & Gutters LLC is a licensed roofing contrac
 $canonicalUrl    = $siteUrl . '/';
 $ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/logo/1779133831658-1madaq-dff36b_7f824423317d4c34af5fcee38837267c_mv2.png';
 $currentPage     = 'home';
-$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg';
+$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/gallery/1779196721177-dff36b_5fe8ff9bdd1c44b69e147fb0ddc31f51_mv2.png';
 $cssVersion      = '3';
 
 // ── Image Library (cloud-hosted) ─────────────────────────────
 $imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/';
 $photos = [
-    'hero'    => $imgBase . '1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg',
+    'hero'    => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/gallery/1779196721177-dff36b_5fe8ff9bdd1c44b69e147fb0ddc31f51_mv2.png',
     'about'   => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
     'photo1'  => $imgBase . '1779134252049-ez0nhr-IMG_096815F71F3A-1.jpeg',
     'photo2'  => $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg',
