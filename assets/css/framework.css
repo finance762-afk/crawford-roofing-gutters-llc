@@ -6,14 +6,14 @@
 
 /* === CSS Custom Properties === */
 :root {
-  /* Brand Colors */
-  --color-primary: #1a2b3c;
-  --color-primary-rgb: 26, 43, 60;
-  --color-primary-dark: #0f1b28;
-  --color-secondary: #4d5e6f;
-  --color-secondary-rgb: 77, 94, 111;
-  --color-accent: #0628d0;
-  --color-accent-rgb: 6, 40, 208;
+  /* Brand Colors — extracted from Crawford logo (deep navy + red) */
+  --color-primary: #011381;
+  --color-primary-rgb: 1, 19, 129;
+  --color-primary-dark: #010D5A;
+  --color-secondary: #2A3E91;
+  --color-secondary-rgb: 42, 62, 145;
+  --color-accent: #C42127;
+  --color-accent-rgb: 196, 33, 39;
   --color-white: #ffffff;
   --color-black: #111111;
   --color-dark: #1a1a2e;
@@ -21,7 +21,7 @@
   --color-light: #f8f9fa;
   --color-bg: #ffffff;
   --color-bg-alt: #f4f6f8;
-  --color-bg-dark: #0f1b28;
+  --color-bg-dark: #010D5A;
   --color-text: #1a1a2e;
   --color-text-light: #6b7280;
   --color-border: rgba(0, 0, 0, 0.08);
@@ -34,9 +34,9 @@
   --color-star: #fbbf24;
 
   /* Tinted Card Backgrounds */
-  --color-card-tint-1: rgba(26, 43, 60, 0.08);
-  --color-card-tint-2: rgba(15, 27, 40, 0.06);
-  --color-card-tint-3: rgba(6, 40, 208, 0.09);
+  --color-card-tint-1: rgba(1, 19, 129, 0.08);
+  --color-card-tint-2: rgba(1, 13, 90, 0.06);
+  --color-card-tint-3: rgba(196, 33, 39, 0.09);
   --color-card-tint-neutral: rgba(245, 247, 250, 1);
 
   /* Typography — Premium Roofing: Unbounded (display) + Fraunces (subheads) + Inter (body) */
@@ -341,55 +341,27 @@ section.hero {
   justify-content: space-between;
 }
 
-/* Text Logo */
+/* Logo */
 .navbar-logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: var(--space-2);
   text-decoration: none;
-  color: var(--color-white);
   transition: opacity var(--transition-fast);
+  flex-shrink: 0;
 }
 .navbar-logo:hover { opacity: 0.9; }
-.logo-mark {
-  font-family: var(--font-heading);
-  font-weight: 900;
-  font-size: 1.5rem;
-  letter-spacing: -0.02em;
-  color: var(--color-accent);
-  background: var(--color-white);
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: transform var(--transition-base);
+.logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  transition: height var(--transition-base);
 }
-.site-header.scrolled .logo-mark {
-  width: 38px;
-  height: 38px;
-  font-size: 1.25rem;
+.site-header.scrolled .logo-img {
+  height: 48px;
 }
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
-}
-.logo-text .logo-name {
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.1rem;
-  letter-spacing: -0.01em;
-  color: var(--color-white);
-}
-.logo-text .logo-tagline {
-  font-family: var(--font-accent);
-  font-style: italic;
-  font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.65);
-  letter-spacing: 0.5px;
+.site-footer .logo-img {
+  height: 54px;
+  filter: brightness(0) invert(1);
 }
 
 /* Nav Links */

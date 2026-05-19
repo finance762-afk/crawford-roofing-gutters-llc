@@ -395,7 +395,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   margin-bottom: 0;
 }
 
-/* ── Team Section (Asymmetric Grid) ──────────────────────── */
+/* ── Team Section ──────────────────────────────────────────── */
 .about-team {
   background: var(--color-primary);
   color: var(--color-white);
@@ -413,27 +413,11 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   position: relative;
   z-index: 1;
 }
-.team-grid {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: var(--space-12);
-  align-items: center;
+.team-header {
+  text-align: center;
+  margin-bottom: var(--space-12);
 }
-.team-visual {
-  position: relative;
-}
-.team-visual .image-frame {
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-}
-.team-visual .image-frame img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  aspect-ratio: 3 / 2;
-}
-.team-text .section-eyebrow {
+.team-header .section-eyebrow {
   display: inline-block;
   font-family: var(--font-body);
   font-size: var(--font-size-xs);
@@ -444,74 +428,96 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   filter: brightness(1.6);
   margin-bottom: var(--space-4);
 }
-.team-text h2 {
+.team-header h2 {
   color: var(--color-white);
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
 }
-.team-text h2 .text-accent {
+.team-header h2 .text-accent {
   font-family: var(--font-accent);
   font-style: italic;
   color: rgba(var(--color-accent-rgb), 1);
   filter: brightness(1.6);
   font-weight: 600;
 }
-.team-text p {
+.team-header p {
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.75;
-  max-width: 55ch;
+  max-width: 60ch;
+  margin: 0 auto;
 }
-.team-member-list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-6);
-  margin-top: var(--space-8);
+
+/* Individual team member profile */
+.team-profile {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: var(--space-10);
+  align-items: center;
+  padding: var(--space-8) 0;
 }
-.team-member {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--space-4);
-  padding: var(--space-5);
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: var(--radius-md);
-  backdrop-filter: blur(8px);
+.team-profile--reverse {
+  grid-template-columns: 1.4fr 1fr;
 }
-.team-member-icon {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
+.team-profile + .team-profile {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: var(--space-4);
+}
+
+.team-profile__photo {
+  position: relative;
+}
+.team-profile__photo .image-frame {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  aspect-ratio: 4 / 3;
+}
+.team-profile__photo .image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.team-profile__photo .team-badge {
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  background: rgba(var(--color-accent-rgb), 0.15);
+  background: var(--color-accent);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(var(--color-accent-rgb), 1);
-  filter: brightness(1.6);
-}
-.team-member-icon i,
-.team-member-icon svg {
-  width: 22px;
-  height: 22px;
-}
-.team-member-info h4 {
   color: var(--color-white);
-  font-size: var(--font-size-base);
-  font-weight: 700;
-  margin-bottom: var(--space-1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
-.team-member-info .role {
+.team-profile__photo .team-badge i,
+.team-profile__photo .team-badge svg {
+  width: 24px;
+  height: 24px;
+}
+
+.team-profile__info h3 {
+  color: var(--color-white);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin-bottom: var(--space-2);
+}
+.team-profile__info .role {
   font-family: var(--font-accent);
   font-style: italic;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-lg);
   color: rgba(var(--color-accent-rgb), 1);
   filter: brightness(1.6);
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-5);
   display: block;
 }
-.team-member-info p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: var(--font-size-sm);
-  line-height: 1.6;
+.team-profile__info p {
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.75;
+  max-width: 55ch;
+  margin-bottom: var(--space-4);
+}
+.team-profile__info p:last-child {
   margin-bottom: 0;
 }
 
@@ -653,12 +659,13 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     max-width: 500px;
     margin: 0 auto;
   }
-  .team-grid {
+  .team-profile,
+  .team-profile--reverse {
     grid-template-columns: 1fr;
-    gap: var(--space-8);
+    gap: var(--space-6);
   }
-  .team-visual {
-    max-width: 500px;
+  .team-profile__photo {
+    max-width: 400px;
     margin: 0 auto;
   }
   .values-grid {
@@ -723,7 +730,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
           <img src="<?php echo $photos['work1']; ?>" alt="Crawford Roofing crew completing a residential roof installation in Omaha, Nebraska" width="600" height="750" loading="lazy">
         </div>
         <div class="floating-badge">
-          <span class="badge-number" data-target="<?php echo $yearsInBusiness; ?>">0</span>
+          <span class="badge-number" data-counter data-target="<?php echo $yearsInBusiness; ?>">0</span>
           <span class="badge-label">Years</span>
         </div>
       </div>
@@ -824,36 +831,45 @@ $breadcrumbSchema = generateBreadcrumbSchema([
 <!-- ════════ TEAM ════════ -->
 <section class="about-team" aria-label="Meet the team">
   <div class="container">
-    <div class="team-grid">
-      <div class="team-visual reveal-left">
+
+    <div class="team-header reveal-up">
+      <span class="section-eyebrow">The Team</span>
+      <h2>Meet the People <span class="text-accent">Behind</span> Your Roof</h2>
+      <p>Every Crawford project is backed by experienced professionals who take ownership of the work — from the initial inspection through final cleanup.</p>
+    </div>
+
+    <!-- Raymond Crawford — Owner -->
+    <div class="team-profile reveal-left">
+      <div class="team-profile__photo">
         <div class="image-frame">
-          <img src="<?php echo $photos['team']; ?>" alt="Crawford Roofing team completing a roofing project in Omaha" width="700" height="467" loading="lazy">
+          <img src="<?php echo $imgBase; ?>1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg" alt="Raymond Crawford, CEO and Founder of Crawford Roofing &amp; Gutters LLC" width="700" height="525" loading="lazy">
         </div>
+        <div class="team-badge"><i data-lucide="hard-hat" aria-hidden="true"></i></div>
       </div>
-      <div class="team-text reveal-right">
-        <span class="section-eyebrow">The Team</span>
-        <h2>Meet the People <span class="text-accent">Behind</span> Your Roof</h2>
-        <p>Every Crawford project is backed by experienced professionals who take ownership of the work — from the initial inspection through final cleanup.</p>
-        <div class="team-member-list">
-          <div class="team-member">
-            <div class="team-member-icon"><i data-lucide="hard-hat" aria-hidden="true"></i></div>
-            <div class="team-member-info">
-              <h4>Raymond Crawford</h4>
-              <span class="role">CEO &amp; Founder</span>
-              <p>Second-generation contractor with 21+ years in construction. Leads every major project and personally inspects every roof before sign-off.</p>
-            </div>
-          </div>
-          <div class="team-member">
-            <div class="team-member-icon"><i data-lucide="clipboard-list" aria-hidden="true"></i></div>
-            <div class="team-member-info">
-              <h4>Joe</h4>
-              <span class="role">Head of Sales &amp; Project Manager</span>
-              <p>Nearly 10 years in residential and commercial roofing. Handles roof assessments, project estimation, and client coordination from first call to final walkthrough.</p>
-            </div>
-          </div>
-        </div>
+      <div class="team-profile__info">
+        <h3>Raymond Crawford</h3>
+        <span class="role">CEO &amp; Founder</span>
+        <p>Raymond is a second-generation contractor with over 21 years of hands-on construction experience in the Omaha metro. He grew up on job sites alongside his father, learning roofing and gutter work from the ground up before founding Crawford Roofing &amp; Gutters LLC.</p>
+        <p>Today, Raymond leads every major project personally — from the initial on-site assessment through the final walkthrough. He inspects every roof before sign-off, ensuring Crawford's <?php echo $yearsInBusiness; ?>-year reputation stays on every shingle they install.</p>
       </div>
     </div>
+
+    <!-- Joe — Head of Sales -->
+    <div class="team-profile team-profile--reverse reveal-right">
+      <div class="team-profile__info">
+        <h3>Joe</h3>
+        <span class="role">Head of Sales &amp; Project Manager</span>
+        <p>With nearly a decade in residential and commercial roofing across the Omaha metro, Joe brings the kind of field-tested expertise that homeowners rely on. He handles everything from the first phone call to the final walkthrough — roof assessments, project estimation, material selection, and insurance coordination.</p>
+        <p>Joe is typically the first Crawford team member you'll meet. His straightforward approach means you get an honest evaluation, a clear written estimate, and a timeline you can count on — no pressure, no upselling.</p>
+      </div>
+      <div class="team-profile__photo">
+        <div class="image-frame">
+          <img src="<?php echo $imgBase; ?>1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg" alt="Joe, Head of Sales and Project Manager at Crawford Roofing &amp; Gutters LLC" width="700" height="525" loading="lazy">
+        </div>
+        <div class="team-badge"><i data-lucide="clipboard-list" aria-hidden="true"></i></div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -862,19 +878,19 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="stats-row">
       <div class="stat-item reveal-up">
-        <div class="stat-number"><span data-target="<?php echo $yearsInBusiness; ?>">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-number"><span data-counter data-target="<?php echo $yearsInBusiness; ?>">0</span><span class="stat-suffix">+</span></div>
         <div class="stat-label">Years in Business</div>
       </div>
       <div class="stat-item reveal-up reveal-delay-1">
-        <div class="stat-number"><span data-target="24">0</span><span class="stat-suffix">hr</span></div>
+        <div class="stat-number"><span data-counter data-target="24">0</span><span class="stat-suffix">hr</span></div>
         <div class="stat-label">Emergency Response</div>
       </div>
       <div class="stat-item reveal-up reveal-delay-2">
-        <div class="stat-number"><span data-target="9">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-number"><span data-counter data-target="9">0</span><span class="stat-suffix">+</span></div>
         <div class="stat-label">Service Offerings</div>
       </div>
       <div class="stat-item reveal-up reveal-delay-3">
-        <div class="stat-number"><span data-target="100">0</span><span class="stat-suffix">%</span></div>
+        <div class="stat-number"><span data-counter data-target="100">0</span><span class="stat-suffix">%</span></div>
         <div class="stat-label">Free Estimates</div>
       </div>
     </div>

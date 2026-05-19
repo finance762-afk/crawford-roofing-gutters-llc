@@ -18,13 +18,9 @@ if (!function_exists('isActivePage')) {
   <div class="container">
     <div class="header-inner">
 
-      <!-- Logo (Text-based) -->
+      <!-- Logo -->
       <a href="/" class="navbar-logo" aria-label="<?php echo htmlspecialchars($siteName); ?> — Home">
-        <span class="logo-mark" aria-hidden="true">CR</span>
-        <span class="logo-text">
-          <span class="logo-name">Crawford Roofing &amp; Gutters</span>
-          <span class="logo-tagline"><?php echo htmlspecialchars($tagline); ?></span>
-        </span>
+        <img src="/assets/images/logo.png" alt="<?php echo htmlspecialchars($siteName); ?>" class="logo-img" width="200" height="80">
       </a>
 
       <!-- Desktop Navigation -->

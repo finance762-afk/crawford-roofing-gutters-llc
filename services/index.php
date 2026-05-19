@@ -9,21 +9,21 @@ $pageDescription = 'Crawford Roofing & Gutters LLC offers 9 professional roofing
 $canonicalUrl    = $siteUrl . '/services/';
 $ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg';
 $currentPage     = 'services';
-$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg';
+$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg';
 $cssVersion      = '3';
 
 // ── Image Library ────────────────────────────────────────────
 $imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/';
-$heroImg = $imgBase . '1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg';
+$heroImg = $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg';
 
 $servicePhotos = [
-    'gutter-addition'       => $imgBase . '1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg',
+    'gutter-addition'       => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
     'gutter-cleaning'       => $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg',
-    'gutter-installation'   => $imgBase . '1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg',
+    'gutter-installation'   => $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg',
     'gutter-repair'         => $imgBase . '1779134251810-z2x055-IMG_95F75D69640F-1.jpeg',
     'gutter-replacement'    => $imgBase . '1779134252049-ez0nhr-IMG_096815F71F3A-1.jpeg',
     'roof-inspection'       => $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg',
-    'roof-repair'           => $imgBase . '1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg',
+    'roof-repair'           => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
     'roof-replacement'      => $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg',
     'new-roof-installation' => $imgBase . '1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg',
 ];

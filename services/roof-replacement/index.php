@@ -1230,7 +1230,7 @@ $faqSchema = generateFAQSchema($faqs);
     <!-- Materials — Asymmetric Layout -->
     <div class="rr-breakdown-asym">
       <div class="rr-breakdown-image reveal-left">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg" alt="Crawford crew installing new asphalt shingles on an Omaha residential roof" width="600" height="450" loading="lazy">
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg" alt="Crawford crew installing new asphalt shingles on an Omaha residential roof" width="600" height="450" loading="lazy">
       </div>
       <div class="rr-breakdown-content reveal-right">
         <span class="eyebrow-label">Roofing Materials</span>

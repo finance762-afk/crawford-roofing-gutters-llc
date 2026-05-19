@@ -7,16 +7,16 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $pageTitle       = 'Gutter Installation Omaha NE | New Gutter Systems | Crawford Roofing & Gutters LLC';
 $pageDescription = 'Professional gutter installation in Omaha, NE by Crawford Roofing & Gutters LLC. Seamless aluminum, copper, and steel gutter systems for residential and commercial properties. ' . $yearsInBusiness . '+ years experience. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/gutter-installation/';
-$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg';
+$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg';
 $currentPage     = 'services';
-$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg';
+$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg';
 $cssVersion      = '3';
 
 // ── Image Library ────────────────────────────────────────────
 $imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/';
-$heroImg  = $imgBase . '1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg';
+$heroImg  = $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg';
 $bodyImg1 = $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg';
-$bodyImg2 = $imgBase . '1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg';
+$bodyImg2 = $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg';
 
 // ── Current Service ──────────────────────────────────────────
 $currentService = null;
@@ -1347,7 +1347,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       $relatedIcons = ['gutter-addition' => 'ruler', 'gutter-replacement' => 'sparkles', 'roof-replacement' => 'home'];
       $relatedTints = [1, 2, 3];
       $relatedPhotos = [
-          'gutter-addition'    => $imgBase . '1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg',
+          'gutter-addition'    => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
           'gutter-replacement' => $imgBase . '1779134252049-ez0nhr-IMG_096815F71F3A-1.jpeg',
           'roof-replacement'   => $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg',
       ];

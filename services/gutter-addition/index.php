@@ -7,9 +7,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $pageTitle       = 'Gutter Addition Omaha NE | Add Gutters to Your Home | Crawford Roofing & Gutters LLC';
 $pageDescription = 'Add gutters to your Omaha home with Crawford Roofing & Gutters LLC. Licensed NE contractor since 1993 — custom gutter addition, seamless aluminum, and steel systems. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/gutter-addition/';
-$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg';
+$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg';
 $currentPage     = 'services';
-$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg';
+$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg';
 $cssVersion      = '3';
 
 // ── FAQ Data ─────────────────────────────────────────────────
@@ -1294,7 +1294,7 @@ $faqSchema = generateFAQSchema($faqs);
 
       <article class="service-card-with-image card-tint-1 reveal-up reveal-delay-1">
         <div class="service-card__image">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg" alt="Professional gutter installation service in Omaha, NE" width="600" height="360" loading="lazy">
+          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg" alt="Professional gutter installation service in Omaha, NE" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="filter" aria-hidden="true"></i></div>

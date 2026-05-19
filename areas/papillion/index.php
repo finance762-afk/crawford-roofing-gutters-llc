@@ -14,7 +14,7 @@ $imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/craw
 $heroImg = $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg';
 $heroImagePreload = $heroImg;
 $secondaryImg = $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg';
-$tertiaryImg  = $imgBase . '1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg';
+$tertiaryImg  = $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg';
 
 // ── Schema ───────────────────────────────────────────────────
 $breadcrumbSchema = generateBreadcrumbSchema([

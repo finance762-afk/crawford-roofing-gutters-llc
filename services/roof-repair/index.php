@@ -6,9 +6,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $pageTitle = 'Roof Repair Omaha NE | Emergency & Storm Damage Repair | Crawford Roofing & Gutters LLC';
 $pageDescription = 'Fast roof repair in Omaha, NE by Crawford Roofing. Emergency leak repair, storm damage, shingle replacement, and flashing repair. 24-hour response. Free estimates.';
 $canonicalUrl = $siteUrl . '/services/roof-repair/';
-$ogImage = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg';
+$ogImage = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg';
 $currentPage = 'services';
-$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg';
+$heroImagePreload = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg';
 $cssVersion = '3';
 
 // ── FAQ Data ─────────────────────────────────────────────────
@@ -1094,7 +1094,7 @@ $faqSchema = generateFAQSchema($faqs);
 <!-- ═══════════════════════════════════════════════════════════════
      SECTION 1 — HERO
      ═══════════════════════════════════════════════════════════════ -->
-<section class="hero--roof-repair" style="background-image: url('https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg');" aria-label="Roof repair service in Omaha">
+<section class="hero--roof-repair" style="background-image: url('https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg');" aria-label="Roof repair service in Omaha">
   <div class="container">
     <nav class="hero-breadcrumb" aria-label="Breadcrumb">
       <a href="/">Home</a>
@@ -1487,7 +1487,7 @@ $faqSchema = generateFAQSchema($faqs);
 
       <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
         <div class="service-card__image">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg" alt="Gutter repair service by Crawford Roofing in Omaha, NE" width="600" height="360" loading="lazy">
+          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg" alt="Gutter repair service by Crawford Roofing in Omaha, NE" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="wrench" aria-hidden="true"></i></div>

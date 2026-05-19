@@ -1142,7 +1142,7 @@ $faqSchema = generateFAQSchema($faqs);
     </div>
 
     <div class="expert-image-wrap reveal-scale" style="max-width: 850px; margin-left: auto; margin-right: auto;">
-      <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg"
+      <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg"
            alt="Crawford Roofing crew repairing damaged gutters on an Omaha home"
            width="850" height="500" loading="lazy">
     </div>

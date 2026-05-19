@@ -22,11 +22,7 @@ if (!function_exists('formatPhone')) {
       <!-- Col 1: Company Info -->
       <div class="footer-col">
         <a href="/" class="navbar-logo" aria-label="<?php echo htmlspecialchars($siteName); ?>" style="margin-bottom:var(--space-4);display:inline-flex;">
-          <span class="logo-mark" aria-hidden="true">CR</span>
-          <span class="logo-text">
-            <span class="logo-name">Crawford Roofing &amp; Gutters</span>
-            <span class="logo-tagline"><?php echo htmlspecialchars($tagline); ?></span>
-          </span>
+          <img src="/assets/images/logo.png" alt="<?php echo htmlspecialchars($siteName); ?>" class="logo-img" width="180" height="72">
         </a>
         <p class="footer-description">
           Crawford Roofing &amp; Gutters LLC has protected Omaha homes and businesses for over <?php echo $yearsInBusiness; ?> years.

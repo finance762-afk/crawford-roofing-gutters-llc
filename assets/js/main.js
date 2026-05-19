@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
           var el = entry.target;
-          var target = parseInt(el.getAttribute('data-counter'), 10);
+          var target = parseInt(el.getAttribute('data-target') || el.getAttribute('data-counter'), 10);
           var suffix = el.getAttribute('data-suffix') || '';
           var prefix = el.getAttribute('data-prefix') || '';
           var duration = 2000;

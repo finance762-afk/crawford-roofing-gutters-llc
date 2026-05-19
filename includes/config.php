@@ -191,9 +191,9 @@ $googleAnalyticsId = 'G-XXXXXXXXXX';
 
 // ── Brand Colors ──────────────────────────────────────────
 $colors = [
-    'primary'   => '#1a2b3c',
-    'secondary' => '#4d5e6f',
-    'accent'    => '#0628d0',
+    'primary'   => '#011381',
+    'secondary' => '#2A3E91',
+    'accent'    => '#C42127',
 ];
 
 // ── Business Info ─────────────────────────────────────────

@@ -16,16 +16,16 @@ $imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/craw
 $heroImg = $imgBase . '1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg';
 
 $areaPhotos = [
-    'omaha'          => $imgBase . '1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg',
-    'bellevue'       => $imgBase . '1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg',
+    'omaha'          => $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg',
+    'bellevue'       => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
     'papillion'      => $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg',
     'la-vista'       => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
     'gretna'         => $imgBase . '1779134251810-z2x055-IMG_95F75D69640F-1.jpeg',
     'elkhorn'        => $imgBase . '1779134252049-ez0nhr-IMG_096815F71F3A-1.jpeg',
     'council-bluffs' => $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg',
     'ralston'        => $imgBase . '1779134252517-ip8hel-roofing-contractors-milford-1024x778.jpg',
-    'bennington'     => $imgBase . '1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg',
-    'fremont'        => $imgBase . '1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg',
+    'bennington'     => $imgBase . '1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg',
+    'fremont'        => $imgBase . '1779134251473-n6gy0x-IMG_81CEF274C56D-1.jpeg',
     'plattsmouth'    => $imgBase . '1779134049337-o7oznv-dff36b_a35b2df95a814ec49799d0169f3a87da_mv2.jpg',
 ];
 
@@ -661,15 +661,15 @@ $breadcrumbSchema = generateBreadcrumbSchema([
 
       <div class="sa-coverage-stats reveal-up reveal-delay-2">
         <div class="sa-stat-card card-tint-1">
-          <div class="stat-number" data-target="11">0</div>
+          <div class="stat-number" data-counter data-target="11">0</div>
           <div class="stat-label">Communities Served</div>
         </div>
         <div class="sa-stat-card card-tint-2">
-          <div class="stat-number" data-target="<?php echo $yearsInBusiness; ?>">0</div>
+          <div class="stat-number" data-counter data-target="<?php echo $yearsInBusiness; ?>">0</div>
           <div class="stat-label">Years in Business</div>
         </div>
         <div class="sa-stat-card card-tint-3">
-          <div class="stat-number" data-target="9">0</div>
+          <div class="stat-number" data-counter data-target="9">0</div>
           <div class="stat-label">Services Offered</div>
         </div>
         <div class="sa-stat-card card-tint-1">

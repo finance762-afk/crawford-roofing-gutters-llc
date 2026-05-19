@@ -1343,7 +1343,7 @@ $faqSchema = generateFAQSchema($faqs);
         </div>
       </div>
       <div class="ni-breakdown-image reveal-left">
-        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg" alt="Crawford Roofing crew installing a new roof on a residential home in Omaha" width="600" height="450" loading="lazy">
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg" alt="Crawford Roofing crew installing a new roof on a residential home in Omaha" width="600" height="450" loading="lazy">
       </div>
     </div>
 
@@ -1591,7 +1591,7 @@ $faqSchema = generateFAQSchema($faqs);
 
       <article class="service-card-with-image card-tint-3 reveal-up reveal-delay-3">
         <div class="service-card__image">
-          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg" alt="Gutter installation by Crawford Roofing in Omaha, NE" width="600" height="360" loading="lazy">
+          <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/crawford-roofing-gutters-llc/photos/1779134252281-l5wz54-IMG_F8851A661ED4-1.jpeg" alt="Gutter installation by Crawford Roofing in Omaha, NE" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="filter" aria-hidden="true"></i></div>
