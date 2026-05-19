@@ -172,9 +172,9 @@ if (!function_exists('formatPhone')) {
 <!-- Scripts -->
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <script>lucide.createIcons();</script>
-<script src="/assets/js/main.js" defer></script>
-<script src="/assets/js/animations.js" defer></script>
-<script src="/assets/js/effects.js" defer></script>
+<script src="/assets/js/main.js?v=<?php echo $cssVer ?? '2'; ?>" defer></script>
+<script src="/assets/js/animations.js?v=<?php echo $cssVer ?? '2'; ?>" defer></script>
+<script src="/assets/js/effects.js?v=<?php echo $cssVer ?? '2'; ?>" defer></script>
 
 <!-- Cookie Banner Dismissal + Mobile Menu Toggle -->
 <script>
@@ -227,6 +227,40 @@ if (!function_exists('formatPhone')) {
       });
     }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
     reveals.forEach(function(el) { revealObserver.observe(el); });
+  }
+
+  // Counter animation (inline for Hostinger cache reliability)
+  var counters = document.querySelectorAll('[data-counter]');
+  if (counters.length > 0 && 'IntersectionObserver' in window) {
+    var counterObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          if (el.dataset.counterDone) { counterObserver.unobserve(el); return; }
+          var targetVal = el.getAttribute('data-target');
+          var target = parseInt(targetVal, 10);
+          if (isNaN(target) || !targetVal) {
+            el.textContent = targetVal || el.textContent;
+            counterObserver.unobserve(el);
+            return;
+          }
+          el.dataset.counterDone = '1';
+          var duration = 2000;
+          var startTime = null;
+          function animate(timestamp) {
+            if (!startTime) startTime = timestamp;
+            var progress = Math.min((timestamp - startTime) / duration, 1);
+            var eased = 1 - Math.pow(1 - progress, 3);
+            el.textContent = Math.floor(eased * target).toLocaleString();
+            if (progress < 1) requestAnimationFrame(animate);
+            else el.textContent = target.toLocaleString();
+          }
+          requestAnimationFrame(animate);
+          counterObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.3 });
+    counters.forEach(function(el) { counterObserver.observe(el); });
   }
 })();
 </script>

@@ -73,17 +73,24 @@ document.addEventListener('DOMContentLoaded', function() {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
           var el = entry.target;
-          var target = parseInt(el.getAttribute('data-target') || el.getAttribute('data-counter'), 10);
+          if (el.dataset.counterDone) return;
+          var targetVal = el.getAttribute('data-target');
+          var target = parseInt(targetVal, 10);
+          if (isNaN(target) || !targetVal) {
+            el.textContent = targetVal || el.textContent;
+            counterObserver.unobserve(el);
+            return;
+          }
+          el.dataset.counterDone = '1';
           var suffix = el.getAttribute('data-suffix') || '';
           var prefix = el.getAttribute('data-prefix') || '';
           var duration = 2000;
-          var start = 0;
           var startTime = null;
 
           function animate(timestamp) {
             if (!startTime) startTime = timestamp;
             var progress = Math.min((timestamp - startTime) / duration, 1);
-            var eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+            var eased = 1 - Math.pow(1 - progress, 3);
             var current = Math.floor(eased * target);
             el.textContent = prefix + current.toLocaleString() + suffix;
             if (progress < 1) requestAnimationFrame(animate);

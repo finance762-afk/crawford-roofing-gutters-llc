@@ -842,7 +842,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="team-profile reveal-left">
       <div class="team-profile__photo">
         <div class="image-frame">
-          <img src="<?php echo $imgBase; ?>1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg" alt="Raymond Crawford, CEO and Founder of Crawford Roofing &amp; Gutters LLC" width="700" height="525" loading="lazy">
+          <img src="<?php echo $imgBase; ?>1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg" alt="Raymond Crawford, CEO and Founder of Crawford Roofing &amp; Gutters LLC" width="700" height="525" loading="lazy">
         </div>
         <div class="team-badge"><i data-lucide="hard-hat" aria-hidden="true"></i></div>
       </div>
@@ -864,7 +864,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       </div>
       <div class="team-profile__photo">
         <div class="image-frame">
-          <img src="<?php echo $imgBase; ?>1779134049612-5tesv4-dff36b_dd0309b57b904f9696a5470bfb110093_mv2.jpg" alt="Joe, Head of Sales and Project Manager at Crawford Roofing &amp; Gutters LLC" width="700" height="525" loading="lazy">
+          <img src="<?php echo $imgBase; ?>1779134048805-bkz97m-dff36b_381e49a0e2c841a4a0db9e9691fb2386_mv2.jpg" alt="Joe, Head of Sales and Project Manager at Crawford Roofing &amp; Gutters LLC" width="700" height="525" loading="lazy">
         </div>
         <div class="team-badge"><i data-lucide="clipboard-list" aria-hidden="true"></i></div>
       </div>
