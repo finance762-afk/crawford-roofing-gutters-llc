@@ -727,7 +727,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <div class="about-story-visual reveal-right">
         <div class="accent-corner" aria-hidden="true"></div>
         <div class="image-frame">
-          <img src="<?php echo $photos['work1']; ?>" alt="Crawford Roofing crew completing a residential roof installation in Omaha, Nebraska" width="600" height="750" loading="lazy">
+          <img src="<?php echo $photos['hero']; ?>" alt="Crawford Roofing crew completing a residential roof installation in Omaha, Nebraska" width="600" height="750" loading="lazy">
         </div>
         <div class="floating-badge">
           <span class="badge-number" data-counter data-target="<?php echo $yearsInBusiness; ?>">0</span>
