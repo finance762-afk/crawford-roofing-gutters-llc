@@ -24,7 +24,7 @@ $address = [
 ];
 
 // ── Domain & URLs ─────────────────────────────────────────
-$domain  = 'crawford-roofing-gutters-llc.pageone.cloud';
+$domain  = 'crawfordroofingllc.com';
 $siteUrl = 'https://' . $domain;
 
 // ── SEO ───────────────────────────────────────────────────
