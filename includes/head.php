@@ -142,12 +142,6 @@ $cssVer          = $cssVersion      ?? '1';
 
         ]
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "87",
-        "bestRating": "5"
-      },
       "sameAs": [
         <?php
         $sameAs = [];
