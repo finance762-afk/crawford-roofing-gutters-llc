@@ -137,6 +137,7 @@ if (!function_exists('formatPhone')) {
     </div>
 
   </div>
+  <?php include __DIR__ . '/partner-badge.php'; ?>
 </footer>
 
 <!-- Back to Top -->
