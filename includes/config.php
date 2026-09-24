@@ -187,7 +187,7 @@ $serviceAreas = [
 $socialLinks = [];
 
 // ── Analytics ─────────────────────────────────────────────
-$googleAnalyticsId = 'G-XXXXXXXXXX';
+$googleAnalyticsId = 'G-9KY3PSTJ9C';
 
 // ── Brand Colors ──────────────────────────────────────────
 $colors = [
