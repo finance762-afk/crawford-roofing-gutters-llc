@@ -164,7 +164,6 @@ $cssVersion      = '4';
       <li>Address: <?php echo htmlspecialchars($companyAddress); ?></li>
     </ul>
 
-    <p style="margin-top:var(--space-10);color:var(--color-text-light);font-size:var(--font-size-sm);font-style:italic;">This Cookie Policy is provided as a general template. We recommend reviewing this document with a licensed <?php echo htmlspecialchars($companyState); ?> attorney before publication.</p>
   </div>
 </section>
 

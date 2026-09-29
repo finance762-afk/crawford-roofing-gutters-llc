@@ -121,7 +121,6 @@ $cssVersion      = '4';
     <h2>Enforcement</h2>
     <p>We recognize your rights under the Americans with Disabilities Act (ADA), Section 508 of the Rehabilitation Act, and applicable state accessibility laws. If you believe that your rights have been violated, you may file a complaint with the appropriate enforcement agency or contact us directly so we can address your concerns.</p>
 
-    <p style="margin-top:var(--space-10);color:var(--color-text-light);font-size:var(--font-size-sm);font-style:italic;">This Accessibility Statement is provided as a general template. We recommend reviewing this document with a licensed <?php echo htmlspecialchars($companyState); ?> attorney before publication.</p>
   </div>
 </section>
 
